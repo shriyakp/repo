@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Yoganirvana</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"> <h3>Yoganirvana</h3></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+	
+	 <div class="w3-dropdown-hover w3-hide-small">
+	  <button class="w3-padding-large w3-button" title="More">Gallery <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Photo gallery</a>
+        <a href="#" class="w3-bar-item w3-button">Youtube videos</a>
+        </div>
+     
+	  </div>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+	   <div class="w3-dropdown-hover w3-hide-small">
+	  <button class="w3-padding-large w3-button" title="More">Certificated students <i class="fa fa-caret-down"></i></button> 
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">	
+        <a href="#" class="w3-bar-item w3-button">World Yoga alliance</a>
+        <a href="#" class="w3-bar-item w3-button">Yoga Alliance,USA</a>
+      </div>
+	  </div>
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Accommodation <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">In Rishikesh,India</a>
+        <a href="#" class="w3-bar-item w3-button">in Haridwar,India</a>
+        <a href="#" class="w3-bar-item w3-button">In Puri,India</a>
+      </div>
+	  </div>
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Certification<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Yoga Techer Training Certification in India</a>
+        <a href="#" class="w3-bar-item w3-button">Yoga Teacher Training for Beginners in India</a>
+        <a href="#" class="w3-bar-item w3-button">Ashtanga and hatha yoga taecher training in india</a>
+        <a href="#" class="w3-bar-item w3-button">Kundalini yoga teacher training in india</a>
+	    <a href="#" class="w3-bar-item w3-button">yoga for pregnancy Teacher training in india</a>
+	  </div>
+	  </div>
+	  <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Organisation<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">About us</a>
+        <a href="#" class="w3-bar-item w3-button">International Trips</a>
+        <a href="#" class="w3-bar-item w3-button">our mission</a>
+		<a href="#" class="w3-bar-item w3-button">Yoga instructors</a>
+		<a href="#" class="w3-bar-item w3-button">Facilities</a>
+		<a href="#" class="w3-bar-item w3-button">Yoga student Reviews</a>
+      </div>
+	 </div>
+	 <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Our Centers<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">In Rishikesh,India</a>
+        <a href="#" class="w3-bar-item w3-button">in Haridwar,India</a>
+        <a href="#" class="w3-bar-item w3-button">In Puri,India</a>
+      </div>
+    </div>
+	<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+	   <a href="#Blog" class="w3-bar-item w3-button">Blog</a>
+    </div>
+  </div>
+</div>
+<!-- Header 
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+</header>
+<!--<!-- Navbar 
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+-->
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/internships work/female-doing-yoga-outdoors-near-tree.jpg" style="width:100%">
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/internships work/th.jpg" style="width:100%">
+   <!-- <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/internships work/th (1).jpg" style="width:100%">
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>-->
+  </div>
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Tickets</h2>
+      <p class="w3-opacity w3-center"><i>Money-back Guarantee</i></p><br>
+<!--
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+-->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/internships work/1.jpg" alt="rishikesh" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>8 Days 50hours Yoga for beginners TTc in Rishikesh,India</b></p>
+            <p class="w3-opacity">Available all year round</p>
+            <p>Training languages: Sanskrit,Hindi,English,Japanese<br>Total cost includes courses & cerificate fee,8 days/7 nights Accomodation, 3 times Meal<br>
+			Yoga for beginners<br>
+			370USD,325Euro,26400INR<br>
+			Price for 
+			8 days/7 nights</p>
+             <!--<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+			<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/internships work/2.jpg" alt="haridwar" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>15 Days 100hours Ashtanga & Hatha Yoga TTc in Rishikesh,India</b></p>
+            <p class="w3-opacity">Available all year round</p>
+            <p>Training languages: Sanskrit,Hindi,English,Japanese<br>Total cost includes courses & cerificate fee,15 days/14 nights Accomodation, 3 times Meal<br>
+			100hour Yoga Teacher Training Course<br>
+			750USD,660Euro,53250INR<br>
+			Price for 
+			15 days/14 nights</p>
+             <!--<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">view more</button>-->
+			<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/internships work/3.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>30 Days 200hours Ashtanga & Hatha Yoga Teacher Training in Rishikesh,India</b></p>
+            <p class="w3-opacity">Available all year round</p>
+            <p>Training languages: Sanskrit,Hindi,English,Japanese<br>Total cost includes courses & cerificate fee,30 days/29 nights Accomodation, 3 times Meal<br>
+			200 hour Yoga TTC<br>
+			1300USD,1141Euro,92800INR<br>
+			Price for 
+			30 days/29 nights</p>
+             <!--<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+			<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!--music-->
+<div align="center">
+<h2>Om chanting</h2>
+<audio controls>
+<source src="/internships work/Om-Mantra-Preview.mp3" type="audio/mpeg">
+</audio>
+</div>
+<!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Upcoming Activities</h2>
+    <!--<p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    -->
+	<div class="w3-row w3-padding-32">
+      <div class="w3-third">
+	  <img src="/internships work/4.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>19-Mar-2019 to 26-Mar-2019 <br>
+		8 days  yoga for Beginners course</p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Details</button>
+      </div>
+      <div >
+	  <img src="/internships work/5.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:20%">
+        <p>01-Apr-2019 to 30-Apr-2019 <br>
+		Yogafor Pregnancy</p>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Details</button>
+      </div>
+      <div class="w3-third">
+         <img src="/internships work/6.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <p>07-Mar-2019 to 05-Apr-2019 <br>
+		200Hour Yoga TTC</p>
+		<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Details</button>
+      </div>
+    </div>
+  </div>
+  <!--About us-->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">ABOUT US</h2>
+    <p>
+	Om yoga International, Yoga Ashram located on the banks of Ganga river and surrounded by a beautiful view of Himalayas is an internationally registered Yoga School offering RYS200hour,300hour and 500hour Yoga alliance, USA certified Indian Traditional style ashtanga,Vinyasa and Hatha Yoga Teacher training Courses in Rishikesh, India.<br>
+	Om Yoga also offers some short term ourses like 8 days Yoga for oldage Training, 30days 200hour yoga for Pregnancy registered from World Yoga Alliance.
+    
+      </div>
+ <!--why-->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">WHY CHOOSE OM YOGA</h2>
+	<p>om yoga international is an internationally recognized organization having its main ashram in rishikesh and haridwar, India.It is located on the banks of Ganga river surrounded by the magnificent view of Himalayas. The soothing sound of divine river Ganga and pleasant view of Himalayas makes this place an adequate stay for those who want to do yogic sadhana. The main uniqueness of our Yoga center is that we teach ancient yogic philosophies as taught by our spiritual masters at their time. So, all our courses are purely based on traditional style as mentioned in Vedas.
+
+Another main uniqueness of our center is that all our yoga philosophies provides us," Way to Successfull Living With the Help Of Yoga and Meditation". As most of the people are now misleading the term Yoga by Asanas, we here give the real meaning to Yoga. The teachings taught at our centre cannot be denied by any person.  
+    
+  </div> 
+ 
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Hyderabad, India<br>
+        
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: abc@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map 
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">-->
+
+ 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <!--
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+   <p>OUR COURSES<br>
+Yoga for Beginners In Rishikesh, India<br>
+200hr Yoga Teacher Training In Rishikesh, India<br>
+300hr Yoga Teacher Training In Rishikesh, India<br>
+500hr Yoga Teacher Training In Rishikesh, India<br>
+Kundalini Yoga Teacher Training In Rishikesh, India<br>
+Yoga for Pregnancy Teacher Training In Rishikesh, India<br>
+Yoga for Oldage and Kids Teacher Training In Rishikesh, India</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
